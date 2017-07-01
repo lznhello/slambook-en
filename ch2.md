@@ -161,7 +161,7 @@ Where ![](http://latex.codecogs.com/gif.latex?\\bm{u}_k) is the motion sensor re
 
 Corresponding to the motion equation, there is also a **observation equation**. The observation equation describes that when the Little Carrot sees a landmark point ![](http://latex.codecogs.com/gif.latex?\\bm{y}_j) at ![](http://latex.codecogs.com/gif.latex?\\bm{x}_k) and generates an observation data ![](http://latex.codecogs.com/gif.latex?\\bm{z}_{k,j}). Likewise, we will describe this relationship with an abstract function ![](http://latex.codecogs.com/gif.latex?h):
 
-![](http://latex.codecogs.com/gif.latex?\\bm{z}_{k,j}=h\\left({{\\bm{y}_j},{\\bm{x}_k},\\bm{v}_{k,j}}\\right))
+equation
 
 Where, ![](http://latex.codecogs.com/gif.latex?\\bm{v}_{k,j}) is the noise in this observation. Since there are more forms of observation sensors, the observed data ![](http://latex.codecogs.com/gif.latex?\\bm{z}) and the observed equation ![](http://latex.codecogs.com/gif.latex?h) also have many different forms.
 
