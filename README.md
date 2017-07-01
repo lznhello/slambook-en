@@ -1,4 +1,4 @@
-{%includelib/mathjax.html%}
+{%include lib/mathjax.html%}
 
 ## Welcome to 14 Lectures on Visual SLAM: From Theory to Practice, by Xiang Gao, Tao Zhang, Qinrui Yan and Yi Liu
 
