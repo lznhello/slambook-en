@@ -155,7 +155,7 @@ With such a setting, "Little Carrot move in the environment with sensors" have t
 
 Let's first take a look at motion. Typically, a robot always carries certain kind of sensors to measure its own movement, such as an encoder or inertial sensor. These sensors can measure readings regarding its motion, but not necessarily directly the location difference. Instead, readings could be acceleration, angular velocity and other information. However, no matter what the sensor is, we can use a common and abstract mathematical model to describe it:
 
-![](http://latex.codecogs.com/gif.latex?\\bm{x}_k=f\\left({{\\bm{x}_{k-1}},{\\bm{u}_k},\\bm{w}_k}\\right))
+equation
 
 Where ![](http://latex.codecogs.com/gif.latex?\\bm{u}_k) is the motion sensor reading (sometimes called the **input**), while ![](http://latex.codecogs.com/gif.latex?\\bm{w}_k) is noise. Note that we use a general function ![](http://latex.codecogs.com/gif.latex?f) to describe the process, instead of specifying the way ![](http://latex.codecogs.com/gif.latex?f) works. This allows the function to represent any motion sensor, rather than being limited to a particular one, and thus becoming a general equation, . We call it the **motion equation**.
 
